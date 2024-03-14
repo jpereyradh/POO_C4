@@ -10,7 +10,7 @@ public class Main {
 
         equipo.mostrarJugadoresTitulares1();
         equipo.mostrarJugadoresTitulares2();
-        
+
 
         System.out.println("Metodo 1: "+equipo.getCantidadJugadoresLesionados());
         System.out.println("Metodo 2: "+equipo.getCantidadLesionados2());
