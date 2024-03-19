@@ -25,6 +25,9 @@ public class Puerto {
         }
         return contador;
     }
+    public List<Contenedor> mostrarListaSimple(){
+        return listaContendedores;
+    }
     public void mostrarContenedores(){
         Collections.sort(listaContendedores, Comparator.comparingInt(Contenedor::getNumeroID));
         for (Contenedor contenedor : listaContendedores) {
@@ -32,4 +35,5 @@ public class Puerto {
 
         }
     }
+
 }
